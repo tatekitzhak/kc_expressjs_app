@@ -1,0 +1,19 @@
+FROM ubuntu/nginx
+
+EXPOSE 80 443
+
+RUN apt update -y && \
+    apt install vim -y && \
+    apt install -y iputils-ping
+
+COPY ./nginx/config/default.conf /etc/nginx/sites-available/
+COPY ./nginx/config/nginx.conf /etc/nginx/
+
+RUN rm /etc/nginx/sites-enabled/default
+RUN ln -sf /etc/nginx/sites-available/default.conf /etc/nginx/sites-enabled/default
+
+RUN chown -R www-data:www-data /var/log/nginx
+RUN mkdir -p /etc/nginx/ssl/prod
+
+COPY ./nginx/certs/prod* /etc/nginx/ssl/prod/
+

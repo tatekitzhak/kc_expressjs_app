@@ -1,0 +1,113 @@
+# ========================
+# Terraform
+# ========================
+# Compiled files
+
+terraform/*.tfstate*
+terraform/*.tfstate.lock.info
+
+# Module and provider directories
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+
+# Variables and secrets (Never commit these!)
+terraform/*.tfvars
+terraform/*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Crash logs
+crash.log
+
+# ========================
+# Docker
+# ========================
+# Dependency directories
+# (If you are copying node_modules or similar into the image)
+node_modules/
+**/node_modules/
+npm-debug.log*
+
+# Docker Compose overrides
+docker-compose.override.yml
+
+# Specific log files
+.docker/
+*.log
+
+.cache/
+**/.cache/
+
+/.pnp
+.pnp.js
+
+.git
+LICENSE
+.vscode
+Makefile
+helm-charts
+
+.editorconfig
+
+.idea
+/.idea/
+
+# ========================
+# General / OS
+# ========================
+**/.DS_Store
+.DS_Store
+Thumbs.db
+.env
+.venv/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+bin/
+obj/
+
+build
+build/*
+dist/
+coverage/
+*.log
+.env*
+!.env.example
+
+
+build
+coverage
+
+**/.DS_Store
+.DS_Store
+
+# Dependency directories
+node_modules/
+
+# TypeScript v1 declaration files
+typings/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Output of 'npm pack'
+*.tgz
+
+# dotenv environment variables file
+.env
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+.vscode
+.vscode/*
+
+# Logs
+logs
+*.log
+npm-debug.log*

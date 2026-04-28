@@ -1,0 +1,479 @@
+{
+    "user":[
+      {
+        "gender":"male",
+        "name":{
+          "username":"jojo_beautifulbutterfly",
+          "first":"john",
+          "last":"jordan"
+        },
+        "location":{
+          "street":"3277 green rd",
+          "city":"australian capital territory",
+          "state":"queensland",
+          "postcode":275
+        },
+        "email":"eugene.jordan@example.com",
+        "login":{
+          "username":"jojo_beautifulbutterfly",
+          "password":"jojoredhot",
+          "salt":"tva1i6Oo",
+          "md5":"a4231f30aa1fcfe46e4c7c4537a4bf11",
+          "sha1":"d6051a921eba285bbeccd95388332f92a50047ce",
+          "sha256":"093b0e1b429a105902f91e4be28c9dc12629701924312d63d55cdfd556d54c38"
+        },
+        "registered":1000882268,
+        "dob":537587321,
+        "phone":"02-4894-6208",
+        "cell":"0477-498-405",
+        "id":{
+          "name":"TFN",
+          "value":"571061435"
+        },
+        "picture":{
+          "large":"https://randomuser.me/api/portraits/men/12.jpg",
+          "medium":"https://randomuser.me/api/portraits/med/men/12.jpg",
+          "thumbnail":"https://randomuser.me/api/portraits/thumb/men/12.jpg"
+        },
+        "avatar":{
+            "name": "Avatar Name",
+            "description": "A description",
+            "authors": ["Author1"],
+            "color": "#RRGGBB"
+          },
+          "item_request":{
+            "product_id": "12345",
+            "name": "Item Name",
+            "type": "Data Type",
+            "tags": ["electronics", "audio"],
+            "description": "Details about the item",
+            "quantity": 1,
+            "price": 10.00
+          },
+        "nat":"AU"
+      },
+      {
+        "gender": "female",
+        "name": {
+          "username": "alice_wonderland",
+          "first": "Alice",
+          "last": "Smith"
+        },
+        "location": {
+          "street": "123 Maple St",
+          "city": "Sydney",
+          "state": "New South Wales",
+          "postcode": 2000
+        },
+        "email": "alice.smith@example.com",
+        "login": {
+          "username": "alice_wonderland",
+          "password": "alicepassword",
+          "salt": "sAlt123",
+          "md5": "8935c150c9012f2771217e94471f005d",
+          "sha1": "7139f40e02742918451121696016147293b6e80b",
+          "sha256": "3645b2909403666b604e386055a73e659345e691234567890abcdef12345678"
+        },
+        "registered": 1577836800,
+        "dob": 631152000,
+        "phone": "02-1234-5678",
+        "cell": "0412-345-678",
+        "id": {
+          "name": "TFN",
+          "value": "111222333"
+        },
+        "picture": {
+          "large": "https://randomuser.me/api/portraits/women/1.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/women/1.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/women/1.jpg"
+        },
+        "avatar": {
+          "name": "Wonder Explorer",
+          "description": "Curious wanderer",
+          "authors": ["DigitalArtCo"],
+          "color": "#FF69B4"
+        },
+        "item_request": {
+          "product_id": "P001",
+          "name": "Notebook",
+          "type": "Stationery",
+          "tags": ["writing", "paper"],
+          "description": "Journal for thoughts",
+          "quantity": 2,
+          "price": 15.50
+        },
+        "nat": "AU"
+      },
+      {
+        "gender": "male",
+        "name": {
+          "username": "bob_builder",
+          "first": "Bob",
+          "last": "Jones"
+        },
+        "location": {
+          "street": "456 Oak Rd",
+          "city": "Melbourne",
+          "state": "Victoria",
+          "postcode": 3000
+        },
+        "email": "bob.jones@example.com",
+        "login": {
+          "username": "bob_builder",
+          "password": "bobpassword",
+          "salt": "b0bSalt",
+          "md5": "e6741b83d84638686697841c2c3664d5",
+          "sha1": "2029302660144f77271960232470162593b6e80b",
+          "sha256": "4645b2909403666b604e386055a73e659345e691234567890abcdef12345678"
+        },
+        "registered": 1580515200,
+        "dob": 473385600,
+        "phone": "03-8765-4321",
+        "cell": "0422-987-654",
+        "id": {
+          "name": "TFN",
+          "value": "444555666"
+        },
+        "picture": {
+          "large": "https://randomuser.me/api/portraits/men/2.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/men/2.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/men/2.jpg"
+        },
+        "avatar": {
+          "name": "Hard Hat",
+          "description": "Always constructing",
+          "authors": ["PixelBuild"],
+          "color": "#FFFF00"
+        },
+        "item_request": {
+          "product_id": "P002",
+          "name": "Hammer",
+          "type": "Tools",
+          "tags": ["hardware", "construction"],
+          "description": "Steel claw hammer",
+          "quantity": 1,
+          "price": 25.00
+        },
+        "nat": "AU"
+      },
+      {
+        "gender": "male",
+        "name": {
+          "username": "charlie_brown",
+          "first": "Charlie",
+          "last": "Brown"
+        },
+        "location": {
+          "street": "789 Pine Ave",
+          "city": "Brisbane",
+          "state": "Queensland",
+          "postcode": 4000
+        },
+        "email": "charlie.brown@example.com",
+        "login": {
+          "username": "charlie_brown",
+          "password": "charliepassword",
+          "salt": "cHar1ie",
+          "md5": "d7841b83d84638686697841c2c3664d5",
+          "sha1": "3029302660144f77271960232470162593b6e80b",
+          "sha256": "5645b2909403666b604e386055a73e659345e691234567890abcdef12345678"
+        },
+        "registered": 1609459200,
+        "dob": 788918400,
+        "phone": "07-5555-1234",
+        "cell": "0433-111-222",
+        "id": {
+          "name": "TFN",
+          "value": "777888999"
+        },
+        "picture": {
+          "large": "https://randomuser.me/api/portraits/men/3.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/men/3.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/men/3.jpg"
+        },
+        "avatar": {
+          "name": "Kite Flyer",
+          "description": "Hopeful optimist",
+          "authors": ["ComicStudio"],
+          "color": "#FFA500"
+        },
+        "item_request": {
+          "product_id": "P003",
+          "name": "Kite",
+          "type": "Toys",
+          "tags": ["outdoor", "flying"],
+          "description": "Diamond shaped kite",
+          "quantity": 1,
+          "price": 12.99
+        },
+        "nat": "AU"
+      },
+      {
+        "gender": "male",
+        "name": {
+          "username": "david_star",
+          "first": "David",
+          "last": "Wilson"
+        },
+        "location": {
+          "street": "101 Cedar Ln",
+          "city": "Perth",
+          "state": "Western Australia",
+          "postcode": 6000
+        },
+        "email": "david.wilson@example.com",
+        "login": {
+          "username": "david_star",
+          "password": "davidpassword",
+          "salt": "d4v1d",
+          "md5": "f1231b83d84638686697841c2c3664d5",
+          "sha1": "4029302660144f77271960232470162593b6e80b",
+          "sha256": "6645b2909403666b604e386055a73e659345e691234567890abcdef12345678"
+        },
+        "registered": 1612137600,
+        "dob": 315532800,
+        "phone": "08-9999-0000",
+        "cell": "0444-555-666",
+        "id": {
+          "name": "TFN",
+          "value": "222333444"
+        },
+        "picture": {
+          "large": "https://randomuser.me/api/portraits/men/4.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/men/4.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/men/4.jpg"
+        },
+        "avatar": {
+          "name": "Tech Guru",
+          "description": "Loves hardware",
+          "authors": ["SiliconValley"],
+          "color": "#0000FF"
+        },
+        "item_request": {
+          "product_id": "P004",
+          "name": "Monitor",
+          "type": "Electronics",
+          "tags": ["computer", "display"],
+          "description": "27-inch 4K screen",
+          "quantity": 1,
+          "price": 450.00
+        },
+        "nat": "AU"
+      },
+      {
+        "gender": "female",
+        "name": {
+          "username": "eva_green",
+          "first": "Eva",
+          "last": "Miller"
+        },
+        "location": {
+          "street": "202 Birch Dr",
+          "city": "Adelaide",
+          "state": "South Australia",
+          "postcode": 5000
+        },
+        "email": "eva.miller@example.com",
+        "login": {
+          "username": "eva_green",
+          "password": "evapassword",
+          "salt": "3v4G",
+          "md5": "a1111b83d84638686697841c2c3664d5",
+          "sha1": "5029302660144f77271960232470162593b6e80b",
+          "sha256": "7645b2909403666b604e386055a73e659345e691234567890abcdef12345678"
+        },
+        "registered": 1622505600,
+        "dob": 820454400,
+        "phone": "08-7777-8888",
+        "cell": "0455-666-777",
+        "id": {
+          "name": "TFN",
+          "value": "888999000"
+        },
+        "picture": {
+          "large": "https://randomuser.me/api/portraits/women/5.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/women/5.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/women/5.jpg"
+        },
+        "avatar": {
+          "name": "Nature Lover",
+          "description": "Forest dweller",
+          "authors": ["EcoArt"],
+          "color": "#008000"
+        },
+        "item_request": {
+          "product_id": "P005",
+          "name": "Seed Pack",
+          "type": "Garden",
+          "tags": ["plants", "outdoor"],
+          "description": "Wildflower mix",
+          "quantity": 5,
+          "price": 5.95
+        },
+        "nat": "AU"
+      },
+      {
+        "gender": "male",
+        "name": {
+          "username": "frank_ocean",
+          "first": "Frank",
+          "last": "White"
+        },
+        "location": {
+          "street": "303 Elm St",
+          "city": "Hobart",
+          "state": "Tasmania",
+          "postcode": 7000
+        },
+        "email": "frank.white@example.com",
+        "login": {
+          "username": "frank_ocean",
+          "password": "frankpassword",
+          "salt": "fr4nk",
+          "md5": "b2222b83d84638686697841c2c3664d5",
+          "sha1": "6029302660144f77271960232470162593b6e80b",
+          "sha256": "8645b2909403666b604e386055a73e659345e691234567890abcdef12345678"
+        },
+        "registered": 1640995200,
+        "dob": 504921600,
+        "phone": "03-6666-5555",
+        "cell": "0466-777-888",
+        "id": {
+          "name": "TFN",
+          "value": "333444555"
+        },
+        "picture": {
+          "large": "https://randomuser.me/api/portraits/men/6.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/men/6.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/men/6.jpg"
+        },
+        "avatar": {
+          "name": "Deep Blue",
+          "description": "Oceanographer",
+          "authors": ["MarineLife"],
+          "color": "#000080"
+        },
+        "item_request": {
+          "product_id": "P006",
+          "name": "Fins",
+          "type": "Sports",
+          "tags": ["diving", "swimming"],
+          "description": "Professional diving fins",
+          "quantity": 1,
+          "price": 89.00
+        },
+        "nat": "AU"
+      },
+      {
+        "gender": "female",
+        "name": {
+          "username": "grace_hopper",
+          "first": "Grace",
+          "last": "Davis"
+        },
+        "location": {
+          "street": "404 Willow Way",
+          "city": "Darwin",
+          "state": "Northern Territory",
+          "postcode": 800
+        },
+        "email": "grace.davis@example.com",
+        "login": {
+          "username": "grace_hopper",
+          "password": "gracepassword",
+          "salt": "gr4c3",
+          "md5": "c3333b83d84638686697841c2c3664d5",
+          "sha1": "7029302660144f77271960232470162593b6e80b",
+          "sha256": "9645b2909403666b604e386055a73e659345e691234567890abcdef12345678"
+        },
+        "registered": 1654041600,
+        "dob": 946684800,
+        "phone": "08-4444-3333",
+        "cell": "0477-888-999",
+        "id": {
+          "name": "TFN",
+          "value": "666777888"
+        },
+        "picture": {
+          "large": "https://randomuser.me/api/portraits/women/7.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/women/7.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/women/7.jpg"
+        },
+        "avatar": {
+          "name": "The Admiral",
+          "description": "Coding pioneer",
+          "authors": ["LegacyGraphics"],
+          "color": "#808080"
+        },
+        "item_request": {
+          "product_id": "P007",
+          "name": "Mechanical Keyboard",
+          "type": "Electronics",
+          "tags": ["computer", "peripheral"],
+          "description": "Blue switch keyboard",
+          "quantity": 1,
+          "price": 120.00
+        },
+        "nat": "AU"
+      },
+      {
+        "gender": "male",
+        "name": {
+          "username": "henry_eighth",
+          "first": "Henry",
+          "last": "King"
+        },
+        "location": {
+          "street": "505 Royal Pl",
+          "city": "Canberra",
+          "state": "Australian Capital Territory",
+          "postcode": 2601
+        },
+        "email": "henry.king@example.com",
+        "login": {
+          "username": "henry_eighth",
+          "password": "henrypassword",
+          "salt": "h3nry",
+          "md5": "d4444b83d84638686697841c2c3664d5",
+          "sha1": "8029302660144f77271960232470162593b6e80b",
+          "sha256": "a645b2909403666b604e386055a73e659345e691234567890abcdef12345678"
+        },
+        "registered": 1672531200,
+        "dob": 410227200,
+        "phone": "02-3333-2222",
+        "cell": "0488-999-000",
+        "id": {
+          "name": "TFN",
+          "value": "999000111"
+        },
+        "picture": {
+          "large": "https://randomuser.me/api/portraits/men/8.jpg",
+          "medium": "https://randomuser.me/api/portraits/med/men/8.jpg",
+          "thumbnail": "https://randomuser.me/api/portraits/thumb/men/8.jpg"
+        },
+        "avatar": {
+          "name": "Crown Prince",
+          "description": "Regal presence",
+          "authors": ["HeritageArt"],
+          "color": "#8B0000"
+        },
+        "item_request": {
+          "product_id": "P008",
+          "name": "Golden Pen",
+          "type": "Luxury",
+          "tags": ["writing", "gold"],
+          "description": "Fountain pen 18k",
+          "quantity": 1,
+          "price": 850.00
+        },
+        "nat": "AU"
+      }
+    ],
+    "info":{
+      "seed":"8eb0b2c2e327a185",
+      "results":1,
+      "page":1,
+      "version":"1.0"
+    }
+  }
+  

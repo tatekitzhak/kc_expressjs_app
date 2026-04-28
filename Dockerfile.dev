@@ -1,0 +1,15 @@
+FROM node:20-slim
+
+# Create app directory
+# WORKDIR /app
+WORKDIR /usr/src/app
+
+COPY ./build ./build
+COPY ./node_modules ./node_modules
+COPY package.json ./
+
+# Ensure the app can be reached
+EXPOSE 3000
+
+# Start the server directly from the build artifact
+CMD ["node", "build/index.js"]

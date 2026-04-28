@@ -1,0 +1,7 @@
+https://nginx.org/en/docs/http/configuring_https_servers.html#optimization
+
+https://gist.github.com/pedrouid/4abcc16c0218a46a577cfa8186cb845d
+
+https://www.alibabacloud.com/help/en/ssl-certificate/install-ssl-certificates-on-nginx-servers-or-tengine-servers
+
+https://medium.com/@tejaskumar01/enable-ssl-on-the-nginx-server-to-allow-secure-access-to-the-application-over-https-port-443-1d802e9e1437
