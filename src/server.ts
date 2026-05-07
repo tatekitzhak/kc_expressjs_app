@@ -14,7 +14,7 @@ app.use(cors(corsOptions));
 // Middlewares
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-// app.use("/", blogsRouter);
+app.use("/", blogsRouter);
 app.use("/", healthCheckRouter, healthRoutes);
 app.use("/keycloak", keycloakRouter);
 

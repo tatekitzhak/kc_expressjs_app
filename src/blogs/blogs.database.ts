@@ -1,24 +1,8 @@
-import { UnitUser, Users, EnumServiceGetOrderBy } from "./blog.interface.js";
 
-
-
-function loadBlogs () : Users {
-  try {
-    return JSON.parse('{"result":true, "count":42, "user":{ "name":"John", "age":30, "city":"New York"}}')
-  } catch (error) {
-    console.log(`Error:: ${error}`)
-    return {}
-  }
-}
-
-let blogs: Users = loadBlogs() 
-
-export const findAll = async (): Promise<UnitUser[]> => Object.values(blogs);
-
-export const findAllFavourites = async (id: string): Promise<EnumServiceGetOrderBy | null> => {
+export const findAllFavourites = async (id: string): Promise<any | null> => {
   try {
 
-    let users:EnumServiceGetOrderBy = [
+    let users:any = [
         { id: 1, email: "john.doe@example.com", name: "John Doe" },
         { id: 2, email: "jane.smith@example.com", name: "Jane Smith" },
         { id: 3, email: "alice.jones@example.com", name: "Alice Jones" },

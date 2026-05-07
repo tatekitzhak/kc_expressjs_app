@@ -54,18 +54,5 @@ async function connectToDatabase(): Promise<{
   }
 }
 
-// connectToDatabase().then(({ client, db, collections }) => {
-//   // console.log("Database connected::", db.databaseName);
-//   // console.log("Collections::", collections);  
-//   // do something with the database
-//   // close the connection
-
-// } ).catch((e) => {  
-//   console.error("Database connection error:", e);
-// } ).finally(() => { 
-//   // client.close();
-//   // console.log("Database connection closed");
-
-//   });
 
 export { connectToDatabase };

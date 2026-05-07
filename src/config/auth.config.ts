@@ -2,11 +2,15 @@ import dotenv from 'dotenv';
 import 'dotenv/config';
 dotenv.config();
 
+const { MONGO_USERNAME, MONGO_PASSWORD, MONGO_HOST, MONGO_PORT, MONGO_DATABASE, NODE_PORT } = process.env
+
+
 type ConnectionEnv = 'app' | 'db' | 'redis';
 
 interface ConnectionInfo {
     [name: string]: string | number | undefined | Record<string, string>;
 };
+
 
 export const ConnectionConfig: Record<ConnectionEnv, ConnectionInfo> = {
     "db": {
@@ -25,8 +29,8 @@ export const ConnectionConfig: Record<ConnectionEnv, ConnectionInfo> = {
         port: process.env['REDIS_PORT'] //parseInt(process.env.REDIS_PORT)
     },
     "app": {
-        host: process.env['APP_HOST'],
-        port: process.env.APP_PORT //parseInt(process.env.APP_PORT)
+        host: process.env['NODE_PORT'],
+        port: process.env.NODE_PORT //parseInt(process.env.APP_PORT)
     }
 }
 

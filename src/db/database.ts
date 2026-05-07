@@ -44,11 +44,11 @@ export class Database {
     }
   };
 
-  async connectToDatabase(next: NextFunction ): Promise<{ mongoclient: MongoClient, mongoclientDbPing: object, next?: NextFunction }> {
+  async connectToDatabase( ): Promise<{ mongoclient: MongoClient, mongoclientDbPing: object, next?: NextFunction }> {
     // check for database connection string and db name
     if (!this.URI || !this.db_name) {
       // throw new Error(`No URI available for MongoDB connection: ${this.URI}`);
-      next( new Error(`No URI available for MongoDB connection: ${this.URI}`));
+      new Error(`No URI available for MongoDB connection: ${this.URI}`);
     }
 
     try {
@@ -80,25 +80,4 @@ export class Database {
     }
   }
 
-  //   async disconnect() {
-  //     try {
-  //       await this.client.close();
-  //       console.log('Database connection closed');
-  //     } catch (error) {
-  //       console.error(`Error closing database connection: ${error}`);
-  //     }
-  //   }
-
-  //   async listDatabases(client) {
-  //     const databasesList = await client.db().admin().listDatabases();
-  //     let arrayOfDatabases = [];
-  //     console.log("--- Databases:-----");
-  //     await databasesList.databases.forEach((db) => {
-  //       console.log(` - ${db.name}`)
-  //       arrayOfDatabases.push(db.name)
-  //     });
-  //     return arrayOfDatabases;
-  //   };
 }
-
-// export const Database_ = new Database('mongodb://localhost:27017');

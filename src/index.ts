@@ -2,11 +2,10 @@ import app from "./server.js";
 import { ConnectionConfig } from "./config/auth.config.js";
 
 
-const appPort = ConnectionConfig.app['port'] as number;
-const appHost = ConnectionConfig.app['host'] as string;
+const NODE_PORT = process.env['NODE_PORT'];
 
-const server = app.listen(3000, () => {
-  console.log(`NodeJS Server running on port http://localhost:3000`);
+const server = app.listen(NODE_PORT, () => {
+  console.log(`NodeJS Server running on port http://localhost:${NODE_PORT}`);
 });
 
 ['SIGINT', 'SIGTERM', 'SIGQUIT']
